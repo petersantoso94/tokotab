@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Tokotab</string>
+
+
+    <!--TextView-->
+    <string name="belum_punya_akun">Belum punya akun ?</string>
+    <string name="new_product">Produk Terbaru</string>
+
+    <!--Button text-->
+    <string name="more">More</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="ok">Ok</string>
+    <string name="daftar">Daftar</string>
+    <string name="register">register</string>
+    <string name="change_password">ubah password</string>
+    <string name="login">Login</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="proceed_purchase">Proses Pembelian</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+    <!--label-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_new">Password Baru</string>
+    <string name="name">Nama</string>
+    <string name="ulangi_password">Ulangi Password</string>
+    <string name="ulangi_password_new">Ulangi Password Baru</string>
+    <string name="password_old">Password Lama</string>
+    <string name="address">Alamat</string>
+    <string name="phone">Nomer Telepon</string>
+    <string name="select_color">Pilih Warna</string>
+
+    <!--Tab Header-->
+    <string name="home">Beranda</string>
+    <string name="category">Kategori</string>
+    <string name="promotion">Promosi</string>
+
+
+    <!--Option Menu-->
+    <string name="search">Cari produk</string>
+    <string name="cart">Keranjang Belanja</string>
+
+    <!--welcome screen text-->
+    <string name="slide_1_title">Selamat Datang</string>
+    <string name="slide_1_desc">
+        Stationeryone.com adalah toko stationery terlengkap dan terpercaya yang berlokasi di surabaya.
+    </string>
+    <string name="slide_2_title">Daftar Sekarang</string>
+    <string name="slide_2_desc">
+        Dapatkan harga spesial untuk setiap pembelian grosir, dan untuk para pelanggan setia kami.
+    </string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Alamat email tidak valid</string>
+    <string name="error_incorrect_password">Password tidak sesuai</string>
+    <string name="error_field_required">Field ini wajib di isi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="satuan_array">
+        <item>PCS</item>
+        <item>LUSIN</item>
+        <item>GROSIR</item>
+    </string-array>
+</resources>

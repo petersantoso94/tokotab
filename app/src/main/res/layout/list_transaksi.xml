@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_transaksi_po"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="SO.0616.0002"
+        android:textColor="@color/album_title" />
+
+    <TextView
+        android:id="@+id/tv_transaksi_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"
+        android:text="06 - 06 - 2016"
+        android:textColor="@color/album_title" />
+
+    <TextView
+        android:id="@+id/tv_transaksi_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_transaksi_po"
+        android:text="Menunggu"
+        android:textColor="@color/album_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_transaksi_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_transaksi_date"
+        android:text="Rp. 12,000.-"
+        android:textSize="@dimen/font_16sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+</RelativeLayout>

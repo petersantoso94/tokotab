@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "62138885089",
+    "project_id": "tokotab-5b079"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62138885089:android:a9ffc858a56ff5cc",
+        "android_client_info": {
+          "package_name": "com.tokotab.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfNlVSgN_5sDDLlFHHvDIfRSuG31IL2dg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

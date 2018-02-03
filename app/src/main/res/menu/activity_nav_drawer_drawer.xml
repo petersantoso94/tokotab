@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_belanja"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="Belanja" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Keranjang Belanja" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_account_box_black_24dp"
+                    android:title="Profil" />
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_https_black_24dp"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_daftar"
+                    android:icon="@drawable/ic_https_black_24dp"
+                    android:title="Daftar" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_https_black_24dp"
+                    android:visible="false"
+                    android:title="Keluar" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
+

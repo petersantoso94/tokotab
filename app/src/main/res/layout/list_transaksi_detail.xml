@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_transaksi_detail_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Acco JOYKO Plastik Putih"
+        android:textColor="@color/album_title" />
+
+    <TextView
+        android:id="@+id/tv_transaksi_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_transaksi_detail_nama"
+        android:text="1 BOX @ Rp. 12,000.-"
+        android:textColor="@color/album_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_color_wrapper"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="@color/colorPrimary"
+            android:id="@+id/v_color_transaksi_detail"
+            android:layout_alignParentRight="true"
+            android:layout_width="16dp"
+            android:layout_marginRight="6dp"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/tv_transaksi_warna"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="hijau"
+            android:textColor="@color/album_title" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_transaksi_subtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll_color_wrapper"
+        android:text="Rp. 12,000.-"
+        android:textSize="@dimen/font_16sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+</RelativeLayout>

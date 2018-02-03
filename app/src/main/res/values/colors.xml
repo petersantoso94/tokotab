@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2979FF</color>
+    <color name="colorPrimaryDark">#2962FF</color>
+    <color name="colorAccent">#FFA000</color>
+    <color name="colorPrimaryText">#4C4E4F</color>
+    <color name="colorSecondaryText">#95989A</color>
+    <color name="colorBlueFacebook">#3D569C</color>
+    <color name="whiteSmoke">#F5F5F5</color>
+    <color name="colorLightPrimaryText">#C0E0FF</color>
+
+    <!--color cardview-->
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#212121</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen">#92C2F5</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen">#FFFFFF</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+    </array>
+</resources>

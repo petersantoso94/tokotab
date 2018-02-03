@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/SelectableItemBackground"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="14dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="14dp">
+
+    <TextView
+        android:background="@android:color/transparent"
+        android:id="@+id/TV_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Buku Tulis Sidu"
+        android:textColor="@color/album_title"
+        android:textSize="@dimen/font_16sp" />
+
+    <TextView
+        android:background="@android:color/transparent"
+        android:id="@+id/TV_count_produk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_category_name"
+        android:text="1230 produk"
+        android:textSize="@dimen/font_12sp" />
+
+    <ImageView
+        android:background="@android:color/transparent"
+        android:id="@+id/ic_arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.6"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+</RelativeLayout>
